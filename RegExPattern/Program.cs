@@ -5,19 +5,31 @@ namespace RegExPattern
 {
     class Program
     {
+        /// <summary>
+        /// regex pattern for all UC
+        /// </summary>
         Regex firstnameregex = new Regex(@"^[A-Z][A-Za-z]{2,}$");
         Regex lastNameregex = new Regex(@"^[A-Z][A-Za-z]{2,}$");
         Regex emailIdregex = new Regex(@"^[A-Za-z]{3}[.]([a-zA-Z]{3})*[bl.co][.in]*");
         Regex mobileNumberregex = new Regex(@"^[1-9]{2}[][1-9]1{0}$");
-        Regex passwordregex = new Regex(@"^[A-Za-z]{8}$");
+        Regex passwordregex = new Regex(@"^[A-Z][A-Za-z]{7}$");
+        /// <summary>
+        /// first name validation UC1
+        /// </summary>
+        /// <param name="firstName"></param>
         public void FirstNameValidation(string firstName)
         {
+            
             Console.WriteLine("first name"+ firstName);
             if (firstnameregex.IsMatch(firstName))
                 Console.WriteLine("Valid first name ");
             else
                 Console.WriteLine("first name is not valid");
         }
+        /// <summary>
+        /// last name validation UC4
+        /// </summary>
+        /// <param name="lastName"></param>
         public void lastNameValidation(string lastName)
         {
             Console.WriteLine("last name" + lastName);
@@ -26,6 +38,10 @@ namespace RegExPattern
             else
                 Console.WriteLine("last name is not valid");
         }
+        /// <summary>
+        /// email id validation UC3
+        /// </summary>
+        /// <param name="emailId"></param>
         public void emailIdValidation(string emailId)
         {
             Console.WriteLine("EmailId" + emailId);
@@ -34,6 +50,10 @@ namespace RegExPattern
             else
                 Console.WriteLine("email id is not valid");
         }
+        /// <summary>
+        /// mobile number validation UC4
+        /// </summary>
+        /// <param name="mobileNumber"></param>
         public void mobileNumberValidation(string mobileNumber)
         {
             Console.WriteLine("mobile number" + mobileNumber);
@@ -42,6 +62,10 @@ namespace RegExPattern
             else
                 Console.WriteLine("number is not valid");
         }
+        /// <summary>
+        /// password validation UC5,6,7,8
+        /// </summary>
+        /// <param name="password"></param>
         public void passwordValidation(string password)
         {
             Console.WriteLine("password " + password);

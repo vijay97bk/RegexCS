@@ -9,6 +9,7 @@ namespace RegExPattern
         Regex lastNameregex = new Regex(@"^[A-Z][A-Za-z]{2,}$");
         Regex emailIdregex = new Regex(@"^[A-Za-z]{3}[.]([a-zA-Z]{3})*[bl.co][.in]*");
         Regex mobileNumberregex = new Regex(@"^[1-9]{2}[][1-9]1{0}$");
+        Regex passwordregex = new Regex(@"^[A-Za-z]{8}$");
         public void FirstNameValidation(string firstName)
         {
             Console.WriteLine("first name"+ firstName);
@@ -39,7 +40,15 @@ namespace RegExPattern
             if (emailIdregex.IsMatch(mobileNumber))
                 Console.WriteLine("Valid number ");
             else
-                Console.WriteLine("number id is not valid");
+                Console.WriteLine("number is not valid");
+        }
+        public void passwordValidation(string password)
+        {
+            Console.WriteLine("password " + password);
+            if (passwordregex.IsMatch(password))
+                Console.WriteLine("Valid password ");
+            else
+                Console.WriteLine("password is not valid");
         }
 
         public static void Main(string[] args)
@@ -56,6 +65,9 @@ namespace RegExPattern
 
             string mobileNumber = "91 9900422544";
             person.mobileNumberValidation(mobileNumber);
+
+            string password = "abc@123";
+            person.passwordValidation(password);
         }
 
            

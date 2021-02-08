@@ -12,7 +12,7 @@ namespace RegExPattern
         Regex lastNameregex = new Regex(@"^[A-Z][A-Za-z]{2,}$");
         Regex emailIdregex = new Regex(@"^[A-Za-z]{3}[.]([a-zA-Z]{3})*[bl.co][.in]*");
         Regex mobileNumberregex = new Regex(@"^[1-9]{2}[][1-9]1{0}$");
-        Regex passwordregex = new Regex(@"^[A-Z][A-Za-z]{7}$");
+        Regex passwordregex = new Regex(@"^[A-Z][A-Za-z1-0]{6}[0-1]$");
         /// <summary>
         /// first name validation UC1
         /// </summary>

@@ -10,7 +10,7 @@ namespace RegExPattern
         /// </summary>
         Regex firstnameregex = new Regex(@"^[A-Z][A-Za-z]{2,}$");
         Regex lastNameregex = new Regex(@"^[A-Z][A-Za-z]{2,}$");
-        Regex emailIdregex = new Regex(@"^[A-Za-z]{3}[.]([a-zA-Z]{3})*[bl.co][.in]*");
+        Regex emailIdregex = new Regex(@"^[a-z]{3}([.,+,-,][a-zA-Z0-9]{3})*[a-z][.][a-z]{2}$");
         Regex mobileNumberregex = new Regex(@"^[1-9]{2}[][1-9]1{0}$");
         Regex passwordregex = new Regex(@"^[A-Z][A-Za-z1-9]{5}[@,-,$,*][0-1]$");
         /// <summary>

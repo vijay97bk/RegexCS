@@ -1,0 +1,13 @@
+C:\Users\Vijay Kshirasagar\Desktop\C# Work\RegExPattern\RegExPattern\bin\Debug\netcoreapp3.1\RegExPattern.exe
+C:\Users\Vijay Kshirasagar\Desktop\C# Work\RegExPattern\RegExPattern\bin\Debug\netcoreapp3.1\RegExPattern.deps.json
+C:\Users\Vijay Kshirasagar\Desktop\C# Work\RegExPattern\RegExPattern\bin\Debug\netcoreapp3.1\RegExPattern.runtimeconfig.json
+C:\Users\Vijay Kshirasagar\Desktop\C# Work\RegExPattern\RegExPattern\bin\Debug\netcoreapp3.1\RegExPattern.runtimeconfig.dev.json
+C:\Users\Vijay Kshirasagar\Desktop\C# Work\RegExPattern\RegExPattern\bin\Debug\netcoreapp3.1\RegExPattern.dll
+C:\Users\Vijay Kshirasagar\Desktop\C# Work\RegExPattern\RegExPattern\bin\Debug\netcoreapp3.1\RegExPattern.pdb
+C:\Users\Vijay Kshirasagar\Desktop\C# Work\RegExPattern\RegExPattern\obj\Debug\netcoreapp3.1\RegExPattern.csprojAssemblyReference.cache
+C:\Users\Vijay Kshirasagar\Desktop\C# Work\RegExPattern\RegExPattern\obj\Debug\netcoreapp3.1\RegExPattern.AssemblyInfoInputs.cache
+C:\Users\Vijay Kshirasagar\Desktop\C# Work\RegExPattern\RegExPattern\obj\Debug\netcoreapp3.1\RegExPattern.AssemblyInfo.cs
+C:\Users\Vijay Kshirasagar\Desktop\C# Work\RegExPattern\RegExPattern\obj\Debug\netcoreapp3.1\RegExPattern.csproj.CoreCompileInputs.cache
+C:\Users\Vijay Kshirasagar\Desktop\C# Work\RegExPattern\RegExPattern\obj\Debug\netcoreapp3.1\RegExPattern.dll
+C:\Users\Vijay Kshirasagar\Desktop\C# Work\RegExPattern\RegExPattern\obj\Debug\netcoreapp3.1\RegExPattern.pdb
+C:\Users\Vijay Kshirasagar\Desktop\C# Work\RegExPattern\RegExPattern\obj\Debug\netcoreapp3.1\RegExPattern.genruntimeconfig.cache
